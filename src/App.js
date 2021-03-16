@@ -3,8 +3,10 @@ import Accordion from './components/Accordion';
 import Search from './components/Search';
 import Dropdown from './components/Dropdown';
 import Translate from './components/Translate';
+import Counter from './components/Counter';
 import Route from './components/Route';
 import Header from './components/Header';
+import News from './components/News';
 
 const items = [
 {
@@ -46,6 +48,12 @@ const App = () => {
       </Route>
       <Route path="/list">
         <Search />
+      </Route>
+      <Route path="/counter">
+        <Counter />
+      </Route>
+      <Route path="/news">
+        <News />
       </Route>
       <Route path="/dropdown">
         <Dropdown
